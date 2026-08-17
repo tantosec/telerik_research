@@ -1,0 +1,7 @@
+services:
+  exploit:
+    build: ./telerik-rau-exploit
+    volumes:
+      - ./telerik-rau-exploit:/work        # state files written here (state_<host>.json)
+      - ./ijw-dll-payload:/work/payload:ro # compiled DLL payloads (read-only), separate artifact
+    working_dir: /work

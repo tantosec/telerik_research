@@ -1,0 +1,48 @@
+# ─── Compiled binaries ──────────────────────────────────────────────
+# Go produces extensionless binaries; list them explicitly as tools are added.
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# ─── Go ─────────────────────────────────────────────────────────────
+# Keep go.mod / go.sum committed; ignore workspace and vendored trees.
+go.work
+go.work.sum
+/vendor/
+
+# ─── C / C++ / MSVC payload build artifacts ─────────────────────────
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.res
+*.pch
+*.idb
+
+# ─── Runtime state / exploit output ─────────────────────────────────
+state*.json
+*.log
+
+# ─── Editors / IDEs ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS junk ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
