@@ -10,7 +10,7 @@ of focus.
 
 | Year | Focus |
 |---|---|
-| [`2026/`](2026/) | RadAsyncUpload padding-oracle-to-RCE chain, DialogHandler type/parameter tampering, RadSpell path traversal, RadEditor PDF export SSRF, RadLayoutBuilder XXE, and RadChart file read/delete. All disclosed to Progress Software and fixed in 2026.2.708. |
+| [`2026/`](2026/) | RadAsyncUpload padding-oracle-to-RCE chain, DialogHandler type/parameter tampering, RadImageEditor file read and RCE, RadFilter JSON deserialisation RCE, RadSpell path traversal, RadEditor PDF export SSRF, RadLayoutBuilder XXE, and RadChart file read/delete. All disclosed to Progress Software and fixed across 2026.1.421, 2026.2.708, and 2026.3.812. |
 
 See each year's `README.md` for the full list of vulnerabilities, CVE
 identifiers, and proof-of-concept usage.
